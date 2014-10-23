@@ -7,10 +7,10 @@
 
 import scrapy
 
-
 class MmItem(scrapy.Item):
-    name = scrapy.Field()
+    nombre = scrapy.Field()
     provincia = scrapy.Field()
-    fDesde = scrapy.Field()
-    fHasta = scrapy.Field()
+    fecha_inicio = scrapy.Field()
+    fecha_fin = scrapy.Field()
     ciudad = scrapy.Field()
+    detalles = scrapy.Field()
